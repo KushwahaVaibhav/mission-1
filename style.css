@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    body-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
      font-family: "Merriweather",sans-serif;
@@ -19,6 +19,7 @@ body {
     padding: 12px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 .container{
     width: 100%;
@@ -49,6 +50,10 @@ body {
     color: #1d3557;
     margin: 20px 0;
 }
+.food_menu_card{
+    width: 100%;
+}
+.
 @media (min_width:768px){
  .navbar{
      justify-content: space-between;
@@ -59,7 +64,7 @@ body {
  }
 
  .button_primary{
-     padding: 20px;
+     padding:  12px 20px;
      font-size: 20px;
  }
  .her0_container{
@@ -74,13 +79,10 @@ body {
 .container{
     max-width: 900px;
 }
-.hero_image_container{
-    height: 500px; 
-    width: 500px;
-}
+
 }
 @media(min-width:1400px){
  .container{
-     max-width: 1250px; ;
+     max-width: 1250px; 
  }
 }
